@@ -1,6 +1,6 @@
 dados para fomrularios 
 forms
-    1 label (nomear o dado que quer)
+    '1.' label (nomear o dado que quer)
     2 input(local onde colocar os dados), varia com o necessario, senha, email
         2.1. type = tipo de informação que vai ser adquirida
     3 action = para onde o dados estão indo (php)
@@ -31,3 +31,5 @@ forms
             2. para juntar os "option" = optgroup, usando o label para nomear
     15. usar o datalist = para ex. profissões, onde se n tiver pode digitar a sua
     16. usar o textarea = para o usuario poder digitar uma msg
+
+    17.output= usado na soma ficticia, apenas para mostrar na tela ex. notas, no range, ou na idade
