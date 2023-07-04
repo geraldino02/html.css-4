@@ -17,3 +17,6 @@ forms
     5. minlength = minimo de letras
     6. maxlength = maximo de letras
     7. required = só manda se escrever
+    8. placeholder = texto na caixa para o que colocar no box
+    9. fieldset= agrupar os dados, esteticamente
+    10. legend= nomear esse agrupamento  
