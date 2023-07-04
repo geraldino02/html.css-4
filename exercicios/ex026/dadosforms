@@ -19,4 +19,9 @@ forms
     7. required = só manda se escrever
     8. placeholder = texto na caixa para o que colocar no box
     9. fieldset= agrupar os dados, esteticamente
-    10. legend= nomear esse agrupamento  
+    10. legend= nomear esse agrupamento 
+    11. todo botão de radio(sexo), mesmo nome 
+    12. input = range = barra de indicação = 0-100
+        12.1 podendo colocar o minimo e maximo
+    13. input = file = mandar arquivo 
+        13.1 só pode usar o post 
