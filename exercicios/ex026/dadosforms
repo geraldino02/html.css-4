@@ -1,0 +1,19 @@
+dados para fomrularios 
+forms
+    1 label (nomear o dado que quer)
+    2 input(local onde colocar os dados), varia com o necessario, senha, email
+        2.1. type = tipo de informação que vai ser adquirida
+    3 action = para onde o dados estão indo (php)
+    
+
+    name= usado mais no html
+    id=     "     " javascript
+
+    metodo de envio
+        1 POST- melhor que cabe mais + 3mil
+        2 GET- só 3 mil letras, n pode usar dados de cartão
+
+    4. autocomplete = ele mesmo, que pode ser classificado com oq vai ser colocado
+    5. minlength = minimo de letras
+    6. maxlength = maximo de letras
+    7. required = só manda se escrever
