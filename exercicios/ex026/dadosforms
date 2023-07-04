@@ -17,11 +17,17 @@ forms
     5. minlength = minimo de letras
     6. maxlength = maximo de letras
     7. required = só manda se escrever
-    8. placeholder = texto na caixa para o que colocar no box
-    9. fieldset= agrupar os dados, esteticamente
+    8. placeholder = texto na caixa para o que colocar no box, orientação
+    9. fieldset= agrupar os dados, "esteticamente"
     10. legend= nomear esse agrupamento 
     11. todo botão de radio(sexo), mesmo nome 
     12. input = range = barra de indicação = 0-100
         12.1 podendo colocar o minimo e maximo
     13. input = file = mandar arquivo 
         13.1 só pode usar o post 
+
+    14. usar o select, por exemplo para selecionar os estados
+        14.1 cada dado usa o "option"
+            2. para juntar os "option" = optgroup, usando o label para nomear
+    15. usar o datalist = para ex. profissões, onde se n tiver pode digitar a sua
+    16. usar o textarea = para o usuario poder digitar uma msg
