@@ -2,3 +2,6 @@
 2. quando usa o media no link, pode ser media type ou media feature = screem and (orientation: portrait)
 3. para poder mudar as orientações no mesmo codigo usa = 
     @media screen and (orientation: portrait) = usado para projeto menores
+
+4. mobile first= primeiro se preocupa com o mobile, onde tem mais dispositivos
+5. @media = pode ser usado no media queiries= onde muda com o dispositivo, os icones, imagem de fundo e etcs(mq004)
