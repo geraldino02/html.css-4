@@ -9,7 +9,7 @@ body, html{
     background-color: lightgray;
 }
 header{
-    background-color: rgb(230, 229, 229);
+    background-color: rgb(165, 162, 162);
 }
 header > h1{
     padding: 10px;
@@ -41,11 +41,11 @@ menu > ul > li a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    color: red;
+    color: white;
     border-top: 2px solid ;
 }
 menu > ul > li a:hover{
-    background-color: rgb(201, 193, 193);
+    background-color: rgb(209, 39, 39);
 }
 main{
     width: 90vw;

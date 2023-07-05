@@ -10,8 +10,8 @@
 <body>
         <header>
             <h1>G1  Rio Claro e Região </h1>
-            <span id="burguer" class="material-icons">menu</span>
-            <menu>
+            <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+            <menu id="itens">
                 <ul>
                     <li><a href="#">Noticias</a></li>
                     <li><a href="#">Previsão do Tempo</a></li>
@@ -52,5 +52,14 @@
                 </p>
             </article>
         </main>
+        <script>
+            function clickMenu(){
+                if (itens.style.display == 'block'){
+                    itens.style.display = 'none'
+                } else {
+                    itens.style.display = 'block'
+                }
+            }
+        </script>
     </body>
 </html>
