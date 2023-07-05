@@ -5,3 +5,14 @@
 
 4. mobile first= primeiro se preocupa com o mobile, onde tem mais dispositivos
 5. @media = pode ser usado no media queiries= onde muda com o dispositivo, os icones, imagem de fundo e etcs(mq004)
+
+
+6. usado para saber a divisão de telas  TYpical device breakpoints 
+
+Mobile devices – 320px — 480px.
+Tablets – 481px — 768px.
+laptops – 769px — 1024px.
+Desktops – 1025px — 1200px.
+Extra large screens – 1201px, and more.
+
+7. onresize = quando mudar de tamanho (java script)

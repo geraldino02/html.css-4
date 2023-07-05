@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* TYpical device breakpoints 
+
+Mobile devices – 320px — 480px.
+Tablets – 481px — 768px.
+laptops – 769px — 1024px.
+Desktops – 1025px — 1200px.
+Extra large screens – 1201px, and more.
+
+*/
+@media screen and (min-width: 769px){
+    span#burguer{
+        display: none;
+        
+    }
+    menu{
+        display: block;
+        color: red;
+        
+    }
+    menu > ul > li{
+        display: inline-block;
+        width: 100px;
+        
+        background-color: gray;
+        
+    }
+    main{
+        width: 769px;
+    }
+}
