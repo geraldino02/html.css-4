@@ -12,12 +12,13 @@ Desktops – 1025px — 1200px.
 Extra large screens – 1201px, and more.
 
 */
-@media screen and (min-width: 769px) and (max-width: 1000px){
+@media screen and (min-width: 769px) and (max-width: 999px){
     body{
         background: linear-gradient( to top, #0b0d63, #5f2c82);
     }
     section#login{
-        width: 90vw;
+        width: 80vw;
+        height: 300px;
     }
     section#login > div#img{
         float: left;
@@ -28,6 +29,9 @@ Extra large screens – 1201px, and more.
         float: right;
         width: 70%;
     }
+    form > input[type=submit]{
+        width: 70%;
+    }
 }
 @media screen and (min-width: 1001px) {
     body{
@@ -35,6 +39,7 @@ Extra large screens – 1201px, and more.
     }
     section#login{
         width: 950px;
+        height: 400px;
     }
     section#login > div#img{
         float: left;
@@ -50,6 +55,6 @@ Extra large screens – 1201px, and more.
         font-size: 2em;
     }
     div#formulario > p{
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
