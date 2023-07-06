@@ -14,7 +14,7 @@ Extra large screens – 1201px, and more.
 */
 @media screen and (min-width: 769px) and (max-width: 1000px){
     body{
-        background-image: linear-gradient(to top #0a0c9c, #5f2c82);
+        background: linear-gradient( to top, #0b0d63, #5f2c82);
     }
     section#login{
         width: 90vw;
@@ -30,6 +30,9 @@ Extra large screens – 1201px, and more.
     }
 }
 @media screen and (min-width: 1001px) {
+    body{
+        background: linear-gradient( to top, #0b0d63, #5f2c82);
+    }
     section#login{
         width: 950px;
     }
@@ -42,5 +45,11 @@ Extra large screens – 1201px, and more.
         float: right;
         width: 50%;
 
+    }
+    div#formulario > h1{
+        font-size: 2em;
+    }
+    div#formulario > p{
+        font-size: 1.2em;
     }
 }
